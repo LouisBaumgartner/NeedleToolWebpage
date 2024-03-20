@@ -16,4 +16,7 @@ MonoBehaviour:
   - Path: Assets/Scenes/MyNeedleScene.unity
     Projects: []
     BuilderScene: 
+  - Path: Assets/Scenes/SampleScene.unity
+    Projects: []
+    BuilderScene: 
   Projects: []
