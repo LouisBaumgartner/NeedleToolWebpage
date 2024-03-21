@@ -20,5 +20,8 @@ MonoBehaviour:
   - Path: Assets/Scenes/SampleScene.unity
     Projects: []
     BuilderScene: 
+  - Path: Assets/Scenes/Test.unity
+    Projects: []
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/newProject

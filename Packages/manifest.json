@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "com.needle.engine-exporter": "3.34.4-exp",
+    "com.needle.engine-samples": "0.15.0",
     "com.unity.animation.rigging": "1.2.1",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.collab-proxy": "2.3.1",
@@ -45,8 +47,7 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0",
-    "com.needle.engine-exporter": "3.34.4-exp"
+    "com.unity.modules.xr": "1.0.0"
   },
   "scopedRegistries": [
     {
