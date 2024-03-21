@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Scenes:
   - Path: Assets/Scenes/MyNeedleScene.unity
-    Projects: []
+    Projects:
+    - ProjectPath: Needle/newProject
     BuilderScene: 
   - Path: Assets/Scenes/SampleScene.unity
     Projects: []
     BuilderScene: 
-  Projects: []
+  Projects:
+  - ProjectPath: Needle/newProject
