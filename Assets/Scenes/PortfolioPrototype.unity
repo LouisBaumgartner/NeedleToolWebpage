@@ -417,7 +417,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -468,7 +468,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.097788066, y: -0.8736338, z: 0.19678175, w: 0.43414113}
   m_LocalPosition: {x: 6.091816, y: 3.6271122, z: 4.6157355}
-  m_LocalScale: {x: 1.0000069, y: 1, z: 1.000006}
+  m_LocalScale: {x: 1.0000088, y: 1, z: 1.0000076}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -647,7 +647,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1042969025
 AudioSource:
   m_ObjectHideFlags: 0
@@ -655,7 +655,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1042969024}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 91ab457ffb4a87f49a6e59008e45af32, type: 3}
@@ -773,6 +773,7 @@ GameObject:
   - component: {fileID: 1076177494}
   - component: {fileID: 1076177499}
   - component: {fileID: 1076177498}
+  - component: {fileID: 1076177500}
   m_Layer: 0
   m_Name: HoverEffects
   m_TagString: Untagged
@@ -878,8 +879,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e03b53c9080d73025f0958c2438dc5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onClickAudio: {fileID: 1042969025}
   onHoverEnterAudio: {fileID: 245180994}
   onHoverExitAudio: {fileID: 35057849}
+  animator: {fileID: 1076177500}
 --- !u!114 &1076177499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,6 +896,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IgnoreSkinnedMeshes: 0
+--- !u!95 &1076177500
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076177492}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bfe3b75e29e82564480572fadc28a075, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1211803451
 GameObject:
   m_ObjectHideFlags: 0

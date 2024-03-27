@@ -10,6 +10,7 @@ namespace Needle.Typescript.GeneratedComponents
 		public UnityEngine.AudioSource @onClickAudio;
 		public UnityEngine.AudioSource @onHoverEnterAudio;
 		public UnityEngine.AudioSource @onHoverExitAudio;
+		public UnityEngine.Animator @animator;
 		public void onPointerEnter(UnityEngine.EventSystems.PointerEventData @args){}
 		public void onPointerExit(UnityEngine.EventSystems.PointerEventData @args){}
 		public void onPointerClick(UnityEngine.EventSystems.PointerEventData @args){}
