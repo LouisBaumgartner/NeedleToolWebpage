@@ -23,5 +23,14 @@ MonoBehaviour:
   - Path: Assets/Scenes/Test.unity
     Projects: []
     BuilderScene: 
+  - Path: Assets/Samples/Needle Engine/MusicalInstrument.unity
+    Projects:
+    - ProjectPath: Library/Needle/Sample
+    BuilderScene: 
+  - Path: Assets/Scenes/PortfolioPrototype.unity
+    Projects:
+    - ProjectPath: Needle/newProject
+    BuilderScene: 
   Projects:
   - ProjectPath: Needle/newProject
+  - ProjectPath: Library/Needle/Sample
