@@ -7,11 +7,14 @@ namespace Needle.Typescript.GeneratedComponents
 {
 	public partial class HoverEffects : UnityEngine.MonoBehaviour
 	{
-		public UnityEngine.Animation @animation;
-		public void awake(){}
+		public UnityEngine.AudioSource @onClickAudio;
+		public UnityEngine.AudioSource @onHoverEnterAudio;
+		public UnityEngine.AudioSource @onHoverExitAudio;
 		public void onPointerEnter(UnityEngine.EventSystems.PointerEventData @args){}
 		public void onPointerExit(UnityEngine.EventSystems.PointerEventData @args){}
 		public void onPointerClick(UnityEngine.EventSystems.PointerEventData @args){}
+		public void onPointerDown(UnityEngine.EventSystems.PointerEventData @args){}
+		public void onPointerUp(UnityEngine.EventSystems.PointerEventData @args){}
 	}
 }
 
