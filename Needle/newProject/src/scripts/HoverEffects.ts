@@ -25,6 +25,7 @@ export class HoverEffects extends Behaviour implements IPointerEventHandler, IPo
         console.log("hover enter");
         this.onHoverEnterAudio?.play();
         this.animator?.setBool("Hover", true);
+        this.context.input.setCursorPointer();
     }
 
     onPointerExit(args: PointerEventData) {
@@ -34,6 +35,7 @@ export class HoverEffects extends Behaviour implements IPointerEventHandler, IPo
         console.log("hover exit");
         this.onHoverExitAudio?.play();
         this.animator?.setBool("Hover", false);
+        this.context.input.setCursorNormal();
     }
 
     onPointerClick(args: PointerEventData) {
